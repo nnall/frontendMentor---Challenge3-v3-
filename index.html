@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+<!--
+  font-family: 'Inter', sans-serif;  400, 700
+  font-family: 'Lexend Deca', sans-serif;  400
+-->
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main>
+
+    <div class="left">
+      <h1>Get <span>insights</span> that help your business grow.</h1>
+      <p>
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+      </p>
+      
+      <!-- Flex -->
+      <ul class = 'statsBox'>
+        <li class = "stat"><span class = "num">10k<span class = 'plus'>+</span></span> companies</li> 
+        <li class = "stat"><span class = "num">314</span> templates</li> 
+        <li class = "stat"><span class = "num" style = "text-transform:uppercase">12M<span class = 'plus'>+</span></span> queries</li> 
+      </ul>
+      
+    </div>
+    <div class="right">
+      <picture>
+          <source media="(max-width:1200px)" srcset="images/image-header-mobile.png">
+          <img src="images/image-header-desktop.png" alt="" aria-hidden="true">
+      </picture>
+    </div>
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a class = "foot" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class = "foot" href="#">Nick</a>.
+  </div>
+</body>
+</html>
